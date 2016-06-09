@@ -169,7 +169,7 @@ you would do the following:
 ```javascript
 var example2methodStub = sinon.stub();
 var testedModule = proxyquire('../lib/modules/example', { //the path to your target module is relative to the test file. No file extension
-    './utils/example2': { // the path the dependency is relative to the target module
+    './utils/example2': { // the path of the dependency is relative to the target module
         'methodName': example2methodStub // here we replace 'methodName' with a stub
         }
     });
