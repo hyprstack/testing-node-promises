@@ -156,7 +156,7 @@ describe('LAMBDA', function() {
 ```
 ### More examples
 
-#### The example above is great if we have a single promise to test and not a chain. In the following snipped of code, we have a module that calls a series of promises in a chain. How would you control that flow so that you can test that each promise triggers the final catch method if there is an error or run successfully end to end?
+#### The example above is great if we have a single promise to test and not a chain. In the following snippet of code, we have a module that calls a series of promises in chain. How would you control that flow so that you can test that each promise triggers the final catch method if there is an error or run successfully end to end?
 
 #### Proxyquire
 
