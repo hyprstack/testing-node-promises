@@ -8,7 +8,7 @@ so much more simple!
 
 
 Adding these to your test file is easy. Add the following code to the beginning of your test file. Mine is called `test.js` 
-and lives in `test` directory.
+and lives in `./test/` directory.
 
 ```javascript
 var chai = require('chai');
